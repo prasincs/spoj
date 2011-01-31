@@ -73,7 +73,6 @@ main ( int argc, char *argv[] )
       n = m;
       m = temp;
     }
-    //if (m < 2) m =2;
     char* marked;
     marked = (char*) malloc(n-m+1);
     memset (marked, 0, n-m+1);
